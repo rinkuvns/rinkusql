@@ -1,0 +1,61 @@
+-- MySQL dump 10.13  Distrib 5.1.73, for redhat-linux-gnu (x86_64)
+--
+-- Host: localhost    Database: southsmsc
+-- ------------------------------------------------------
+-- Server version	5.1.73
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `table_for_analysis_east_s9`
+--
+
+DROP TABLE IF EXISTS `table_for_analysis_east_s9`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `table_for_analysis_east_s9` (
+  `IndianDatetime` datetime DEFAULT NULL,
+  `AccountId` varchar(15) DEFAULT NULL,
+  `AccountName` varchar(40) DEFAULT NULL,
+  `Accounttype` varchar(40) DEFAULT NULL,
+  `company_name` varchar(50) DEFAULT NULL,
+  `total_submitted` int(11) DEFAULT NULL,
+  `Total_delivered` int(11) DEFAULT NULL,
+  `Onnet_submitted` int(11) DEFAULT NULL,
+  `Offnet_submitted` int(11) DEFAULT NULL,
+  `Onnet_delivered` int(11) DEFAULT NULL,
+  `Offnet_delivered` int(11) DEFAULT NULL,
+  `PM` varchar(50) DEFAULT NULL,
+  `GatewayId` int(10) unsigned DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `table_for_analysis_east_s9`
+--
+
+LOCK TABLES `table_for_analysis_east_s9` WRITE;
+/*!40000 ALTER TABLE `table_for_analysis_east_s9` DISABLE KEYS */;
+INSERT INTO `table_for_analysis_east_s9` VALUES ('2022-06-03 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',2,2,NULL,2,NULL,2,NULL,NULL),('2022-06-01 00:00:00','23','evnsDLT6',NULL,'Telemarketer4',1,0,NULL,1,NULL,0,NULL,NULL),('2022-06-01 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',3,0,NULL,3,NULL,0,NULL,NULL),('2022-06-01 00:00:00','26','evnsDLT9',NULL,'Telemarketer4',2,0,NULL,2,NULL,0,NULL,NULL),('2022-06-04 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',6,4,NULL,6,NULL,4,NULL,NULL),('2022-06-06 00:00:00','26','evnsDLT9',NULL,'Telemarketer4',5,5,2,3,2,3,NULL,NULL),('2022-06-06 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',33,32,14,19,14,18,NULL,NULL),('2022-06-06 00:00:00','23','evnsDLT6',NULL,'Telemarketer4',18,18,2,16,2,16,NULL,NULL),('2022-06-07 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',4,4,NULL,4,NULL,4,NULL,NULL),('2022-06-08 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',107228,0,97068,10160,0,0,NULL,NULL),('2022-06-08 00:00:00','23','evnsDLT6',NULL,'Telemarketer4',249964,0,226200,23764,0,0,NULL,NULL),('2022-06-09 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',4982,0,4544,438,0,0,NULL,NULL),('2022-06-09 00:00:00','23','evnsDLT6',NULL,'Telemarketer4',11570,0,10614,956,0,0,NULL,NULL),('2022-06-10 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',5002,0,4600,402,0,0,NULL,NULL),('2022-06-10 00:00:00','23','evnsDLT6',NULL,'Telemarketer4',11556,0,10564,992,0,0,NULL,NULL),('2022-06-13 00:00:00','23','evnsDLT6',NULL,'Telemarketer4',11571,7887,10594,977,7094,793,NULL,NULL),('2022-06-13 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',4982,3418,4564,418,3068,350,NULL,NULL),('2022-06-16 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',709831,454888,479085,230746,279899,174989,NULL,NULL),('2022-06-16 00:00:00','23','evnsDLT6',NULL,'Telemarketer4',719676,460248,489145,230531,285905,174343,NULL,NULL),('2022-06-17 00:00:00','23','evnsDLT6',NULL,'Telemarketer4',17,13,NULL,17,NULL,13,NULL,NULL),('2022-06-18 00:00:00','26','evnsDLT9',NULL,'Telemarketer4',5,5,5,NULL,5,NULL,NULL,NULL),('2022-06-18 00:00:00','23','evnsDLT6',NULL,'Telemarketer4',24753,15457,22653,2100,13947,1510,NULL,NULL),('2022-06-18 00:00:00','24','evnsDLT7',NULL,'Telemarketer4',18059,11507,16545,1514,10401,1106,NULL,NULL),('2022-06-20 00:00:00','26','evnsDLT9',NULL,'Telemarketer4',6596,4150,6028,568,3742,408,NULL,NULL),('2022-06-20 00:00:00','25','evnsDLT8',NULL,'Telemarketer4',9965,6163,9130,835,5548,615,NULL,NULL),('2022-06-21 00:00:00','25','evnsDLT8',NULL,'Telemarketer4',9986,6042,9122,864,5394,648,NULL,NULL),('2022-06-21 00:00:00','26','evnsDLT9',NULL,'Telemarketer4',6586,4040,6056,530,3664,376,NULL,NULL),('2022-06-22 00:00:00','25','evnsDLT8',NULL,'Telemarketer4',548084,333388,375792,172292,207639,125749,NULL,NULL),('2022-06-22 00:00:00','26','evnsDLT9',NULL,'Telemarketer4',807685,491753,552950,254735,305520,186233,NULL,NULL),('2022-06-23 00:00:00','25','evnsDLT8',NULL,'Telemarketer4',9968,6024,9116,852,5450,574,NULL,NULL),('2022-06-23 00:00:00','26','evnsDLT9',NULL,'Telemarketer4',6590,4054,6048,542,3642,412,NULL,NULL);
+/*!40000 ALTER TABLE `table_for_analysis_east_s9` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2022-06-24 10:44:00
