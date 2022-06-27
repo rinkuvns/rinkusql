@@ -32,7 +32,7 @@ CREATE TABLE `script_check` (
   `status` int(11) DEFAULT '0',
   `datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=197738 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=197794 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -44,4 +44,4 @@ CREATE TABLE `script_check` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-27 11:26:59
+-- Dump completed on 2022-06-27 15:01:16
