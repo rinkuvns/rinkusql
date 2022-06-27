@@ -107,10 +107,10 @@ yes | cp -r /root/scripts/imps5.sh /home/github/sql/rinkusql/cron_sh_files/
 yes | cp -r /root/scripts/imps4.sh /home/github/sql/rinkusql/cron_sh_files/
 yes | cp -r /root/scripts/imps.sh /home/github/sql/rinkusql/cron_sh_files/
 yes | cp -r /root/scripts/dwnmyfile.sh /home/github/sql/rinkusql/cron_sh_files/
-
+crontab -l > /home/github/sql/rinkusql/cron_sh_files/crontab_readme.txt
 cd /home/github/sql/rinkusql/
 git init
 git add .
 git commit -m "$date sql backup"
-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 | git push -u origin main
+git push -u origin main
 
