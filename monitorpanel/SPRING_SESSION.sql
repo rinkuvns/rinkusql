@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.73, for redhat-linux-gnu (x86_64)
 --
--- Host: localhost    Database: southsmsc
+-- Host: localhost    Database: monitorpanel
 -- ------------------------------------------------------
 -- Server version	5.1.73
 
@@ -16,31 +16,34 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `accountDetails_sgc_dummy_s4_till_2021_11_22`
+-- Table structure for table `SPRING_SESSION`
 --
 
-DROP TABLE IF EXISTS `accountDetails_sgc_dummy_s4_till_2021_11_22`;
+DROP TABLE IF EXISTS `SPRING_SESSION`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `accountDetails_sgc_dummy_s4_till_2021_11_22` (
-  `accountid` varchar(200) DEFAULT NULL,
-  `accountname` varchar(200) DEFAULT NULL,
-  `companyname` varchar(200) DEFAULT NULL,
-  `accounttype` varchar(20) DEFAULT NULL,
-  `PM` varchar(50) DEFAULT NULL,
-  `server` varchar(100) DEFAULT NULL,
-  `pwd` varchar(50) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+CREATE TABLE `SPRING_SESSION` (
+  `PRIMARY_ID` char(36) NOT NULL,
+  `SESSION_ID` char(36) NOT NULL,
+  `CREATION_TIME` bigint(20) NOT NULL,
+  `LAST_ACCESS_TIME` bigint(20) NOT NULL,
+  `MAX_INACTIVE_INTERVAL` int(11) NOT NULL,
+  `EXPIRY_TIME` bigint(20) NOT NULL,
+  `PRINCIPAL_NAME` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`PRIMARY_ID`),
+  UNIQUE KEY `SPRING_SESSION_IX1` (`SESSION_ID`),
+  KEY `SPRING_SESSION_IX2` (`EXPIRY_TIME`),
+  KEY `SPRING_SESSION_IX3` (`PRINCIPAL_NAME`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 ROW_FORMAT=DYNAMIC;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `accountDetails_sgc_dummy_s4_till_2021_11_22`
+-- Dumping data for table `SPRING_SESSION`
 --
 
-LOCK TABLES `accountDetails_sgc_dummy_s4_till_2021_11_22` WRITE;
-/*!40000 ALTER TABLE `accountDetails_sgc_dummy_s4_till_2021_11_22` DISABLE KEYS */;
-INSERT INTO `accountDetails_sgc_dummy_s4_till_2021_11_22` VALUES ('7','svnsDLT1','Telemarketer1','Transactional','Altmish','South',NULL),('8','svnsDLT2','Telemarketer1','Transactional','Altmish','South',NULL),('9','svnsDLTB1','Telemarketer1','Transactional','Altmish','South',NULL);
-/*!40000 ALTER TABLE `accountDetails_sgc_dummy_s4_till_2021_11_22` ENABLE KEYS */;
+LOCK TABLES `SPRING_SESSION` WRITE;
+/*!40000 ALTER TABLE `SPRING_SESSION` DISABLE KEYS */;
+/*!40000 ALTER TABLE `SPRING_SESSION` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -52,4 +55,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-27 10:53:53
+-- Dump completed on 2022-06-27 10:53:52
