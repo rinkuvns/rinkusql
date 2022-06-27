@@ -108,6 +108,7 @@ yes | cp -r /root/scripts/imps4.sh /home/github/sql/rinkusql/cron_sh_files/
 yes | cp -r /root/scripts/imps.sh /home/github/sql/rinkusql/cron_sh_files/
 yes | cp -r /root/scripts/dwnmyfile.sh /home/github/sql/rinkusql/cron_sh_files/
 crontab -l > /home/github/sql/rinkusql/cron_sh_files/crontab_readme.txt
+
 cd /home/github/sql/rinkusql/
 git init
 git add .
