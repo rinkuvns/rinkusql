@@ -44,7 +44,7 @@ CREATE TABLE `accountDetails_sgc_dummy_s7` (
 
 LOCK TABLES `accountDetails_sgc_dummy_s7` WRITE;
 /*!40000 ALTER TABLE `accountDetails_sgc_dummy_s7` DISABLE KEYS */;
-INSERT INTO `accountDetails_sgc_dummy_s7` VALUES ('8','svnsDLT1','Telemarketer1','Transactional','Altmish','South',NULL),('9','svnsDLT2','Telemarketer1','Transactional','Altmish','South',NULL),('14','svnsDLTB1','Telemarketer1','Transactional','Altmish','South',NULL),('19','sbsnlPDLT1','Telemarketer1','Transactional','Altmish','South',NULL),('20','sbsnlPDLT2','Telemarketer1','Transactional','Altmish','South',NULL),('57','wbsnlDLT1','Telemarketer5','Transactional','Altmish','West',NULL),('58','wbsnlDLT2','Telemarketer5','Transactional','Altmish','West',NULL),('59','wbsnlDLT3','Telemarketer5','Transactional','Altmish','West',NULL),('60','wbsnlDLT4','Telemarketer5','Transactional','Altmish','West',NULL),('61','wbsnlDLT5','Telemarketer5','Transactional','Altmish','West',NULL);
+INSERT INTO `accountDetails_sgc_dummy_s7` VALUES ('8','svnsDLT1','Telemarketer1','Transactional','Altmish','South',NULL),('9','svnsDLT2','Telemarketer1','Transactional','Altmish','South',NULL),('14','svnsDLTB1','Telemarketer1','Transactional','Altmish','South',NULL),('19','sbsnlPDLT1','Telemarketer1','Transactional','Altmish','South',NULL),('20','sbsnlPDLT2','Telemarketer1','Transactional','Altmish','South',NULL),('57','wbsnlDLT1','Telemarketer5','Transactional','Altmish','West',NULL),('58','wbsnlDLT2','Telemarketer5','Transactional','Altmish','West',NULL),('59','wbsnlDLT3','Telemarketer5','Transactional','Altmish','West',NULL),('60','wbsnlDLT4','Telemarketer5','Transactional','Altmish','West',NULL),('61','wbsnlDLT5','Telemarketer5','Transactional','Altmish','West',NULL),('68','sbsnlTDLT1','Telemarketer1','Transactional','Altmish','South',NULL),('69','sbsnlTDLT2','Telemarketer1','Transactional','Altmish','South',NULL);
 /*!40000 ALTER TABLE `accountDetails_sgc_dummy_s7` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -57,4 +57,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-06-27 15:11:01
+-- Dump completed on 2022-07-04 15:56:58
