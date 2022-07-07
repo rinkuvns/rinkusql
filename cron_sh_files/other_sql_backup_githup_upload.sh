@@ -24,6 +24,7 @@ mysqldump cwc teamb_account > /home/github/sql/rinkusql/cwc/teamb_account.sql
 mysqldump cwc traffic_analysis > /home/github/sql/rinkusql/cwc/traffic_analysis.sql
 mysqldump cwc ucc_logs > /home/github/sql/rinkusql/cwc/ucc_logs.sql
 mysqldump cwc user > /home/github/sql/rinkusql/cwc/user.sql
+mysqldump cwc user_login_logs > /home/github/sql/rinkusql/cwc/user_login_logs.sql
 mysqldump cwc usertab > /home/github/sql/rinkusql/cwc/usertab.sql
 mysqldump cwc zone_accound > /home/github/sql/rinkusql/cwc/zone_accound.sql
 
