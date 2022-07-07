@@ -21,6 +21,7 @@ mysqldump cwc reportcompany > /home/github/sql/rinkusql/cwc/reportcompany.sql
 mysqldump cwc sentbox_bulk_files > /home/github/sql/rinkusql/cwc/sentbox_bulk_files.sql
 mysqldump cwc tab_access > /home/github/sql/rinkusql/cwc/tab_access.sql
 mysqldump cwc teamb_account > /home/github/sql/rinkusql/cwc/teamb_account.sql
+mysqldump cwc traffic_analysis > /home/github/sql/rinkusql/cwc/traffic_analysis.sql
 mysqldump cwc ucc_logs > /home/github/sql/rinkusql/cwc/ucc_logs.sql
 mysqldump cwc user > /home/github/sql/rinkusql/cwc/user.sql
 mysqldump cwc usertab > /home/github/sql/rinkusql/cwc/usertab.sql
@@ -78,6 +79,7 @@ mysqldump southsmsc table_for_analysis_south_s4 > /home/github/sql/rinkusql/sout
 mysqldump southsmsc table_for_analysis_south_s4_backup > /home/github/sql/rinkusql/southsmsc/table_for_analysis_south_s4_backup.sql
 mysqldump southsmsc table_for_analysis_south_s5 > /home/github/sql/rinkusql/southsmsc/table_for_analysis_south_s5.sql
 mysqldump southsmsc table_for_analysis_west > /home/github/sql/rinkusql/southsmsc/table_for_analysis_west.sql
+mysqldump southsmsc zone_accound > /home/github/sql/rinkusql/southsmsc/zone_accound.sql
 
 mysqldump anagram > /home/github/sql/rinkusql/anagram/anagram.sql
 
