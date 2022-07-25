@@ -6,6 +6,7 @@
 45 09 * * * /root/scripts/southsetup5.sh >> /root/scripts/southsetup5.txt
 35 09 * * * /root/scripts/eastsetup9.sh >> /root/scripts/eastsetup9.txt
 55 09 * * * /root/scripts/southmonthtm.sh >> /root/scripts/southmonthtm.txt
+40 09 * * * /root/scripts/SCGDataShiftSetup10.sh >> /root/scripts/SCGDataShiftSetup10.txt
 
 15 10 * * * /root/scripts/westmt.sh >> /root/scripts/westmt.txt
 

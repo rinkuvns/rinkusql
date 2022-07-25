@@ -21,7 +21,7 @@ mysqldump cwc reportcompany > /home/github/sql/rinkusql/cwc/reportcompany.sql
 mysqldump cwc sentbox_bulk_files > /home/github/sql/rinkusql/cwc/sentbox_bulk_files.sql
 mysqldump cwc tab_access > /home/github/sql/rinkusql/cwc/tab_access.sql
 mysqldump cwc teamb_account > /home/github/sql/rinkusql/cwc/teamb_account.sql
-mysqldump cwc traffic_analysis > /home/github/sql/rinkusql/cwc/traffic_analysis.sql
+mysqldump --no-data cwc traffic_analysis > /home/github/sql/rinkusql/cwc/traffic_analysis.sql
 mysqldump cwc ucc_logs > /home/github/sql/rinkusql/cwc/ucc_logs.sql
 mysqldump cwc user > /home/github/sql/rinkusql/cwc/user.sql
 mysqldump cwc user_login_logs > /home/github/sql/rinkusql/cwc/user_login_logs.sql
