@@ -48,7 +48,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'Neeraj Bhagat','neeraj','neeraj@virtuosonetsoft.in','1995-10-03','male','favicon.png',1084627869,149,'Ywuf5Nw9ZlZ5+OwaJ5BZ7Q==','super','2022-06-10 07:11:39','2022-06-17 12:53:52','iKEE80jbDdQ=','kdV0AVWyHG679rVwzhB215EwLfHPKyAzPKLlM6Cmqaq5Y0v_wh'),(2,'shweta','shweta',NULL,NULL,'0',NULL,1631614646,0,'kqzQChHnvDI3MMfCPB53/Q==','admin','2022-06-13 05:35:14',NULL,'En2qiqGIRgQ=','x24yCkDT0Dt9soh5KOdkZ-cWRLSDp0rksFZsgeVU06T76htiiM'),(3,'sushil','sushil',NULL,NULL,'0',NULL,1152787596,0,'88oDiZG6MCs3MMfCPB53/Q==','admin','2022-06-13 05:35:14',NULL,'at8JvKEqvEc=','0ArcBObxLglz2-wHiad9Fq4YgNuYNzTQh71q-kzX4FfHhWMb56'),(5,'Abhinav','abhinav',NULL,NULL,'0',NULL,1196253074,0,'nB677l75DYHNpNl82tjjDQ==','team','2022-06-13 05:35:14',NULL,NULL,'jz1i-nkHvcK6x4FoMRDk1gs6z1PnJSfCVzgmw4kaJR1MTK1GHL'),(6,'sakshi','sakshi',NULL,NULL,'0',NULL,1360728517,0,'q4Ht59lgcGs3MMfCPB53/Q==','admin','2022-06-13 05:35:14',NULL,'NlH9EW9CCsg=','_G6MTryBkmNpJFCp0Wdov6GkqPkzusQD48nNnaOKhhBGGEPO4E'),(7,'rinku','rinku',NULL,NULL,'0',NULL,1176814629,0,'8q4ZT6kzyrFY7aOA7avxpw==','admin','2022-06-13 05:35:14',NULL,'CRWLlTh9/K4=','dlivENArqnXNWRlnoSi7j2ULHXD_IlCVnDFxJg_4Xbisws-xjo');
+INSERT INTO `user` VALUES (1,'Neeraj Bhagat','neeraj','neeraj@virtuosonetsoft.in','1995-10-03','male','favicon.png',1084627869,149,'Ywuf5Nw9ZlZ5+OwaJ5BZ7Q==','super','2022-06-10 07:11:39','2022-06-17 12:53:52','KE9B5DuuawE=','kdV0AVWyHG679rVwzhB215EwLfHPKyAzPKLlM6Cmqaq5Y0v_wh'),(2,'shweta','shweta',NULL,NULL,'0',NULL,1631614646,0,'kqzQChHnvDI3MMfCPB53/Q==','admin','2022-06-13 05:35:14',NULL,'vcHMmY2pPTQ=','x24yCkDT0Dt9soh5KOdkZ-cWRLSDp0rksFZsgeVU06T76htiiM'),(3,'sushil','sushil',NULL,NULL,'0',NULL,1152787596,0,'88oDiZG6MCs3MMfCPB53/Q==','admin','2022-06-13 05:35:14',NULL,'OdYyvyHoupY=','0ArcBObxLglz2-wHiad9Fq4YgNuYNzTQh71q-kzX4FfHhWMb56'),(5,'Abhinav','abhinav',NULL,NULL,'0',NULL,1196253074,0,'nB677l75DYHNpNl82tjjDQ==','team','2022-06-13 05:35:14',NULL,NULL,'jz1i-nkHvcK6x4FoMRDk1gs6z1PnJSfCVzgmw4kaJR1MTK1GHL'),(6,'sakshi','sakshi',NULL,NULL,'0',NULL,1360728517,0,'q4Ht59lgcGs3MMfCPB53/Q==','admin','2022-06-13 05:35:14',NULL,'peyzlZa3ZBg=','_G6MTryBkmNpJFCp0Wdov6GkqPkzusQD48nNnaOKhhBGGEPO4E'),(7,'rinku','rinku',NULL,NULL,'0',NULL,1176814629,0,'8q4ZT6kzyrFY7aOA7avxpw==','admin','2022-06-13 05:35:14',NULL,'rfEUP7HuvBQ=','dlivENArqnXNWRlnoSi7j2ULHXD_IlCVnDFxJg_4Xbisws-xjo');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -61,4 +61,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-07-25 10:50:55
+-- Dump completed on 2022-08-02 11:27:22

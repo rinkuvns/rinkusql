@@ -41,7 +41,7 @@ CREATE TABLE `traffic_analysis` (
   `entry_time` timestamp NULL DEFAULT NULL,
   `datetime` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=8001 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=11072 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -53,4 +53,4 @@ CREATE TABLE `traffic_analysis` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-07-25 10:50:55
+-- Dump completed on 2022-08-02 11:27:22
